@@ -1,0 +1,87 @@
+
+body{
+    margin: 0;
+	padding: 0;
+	line-height: 1.7em;
+}
+
+video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -2;
+}
+
+header.jumbotron {
+	position: relative;
+	overflow: hidden;
+
+	height: 100vh;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 1em;
+}
+
+h1,h2{
+    font-family: 'Righteous', cursive;
+	
+	
+}
+
+div.container {
+	width: 1024px;
+	margin: auto;
+	
+}
+
+/*--------------------- main-----------------------*/
+
+
+
+/*----------------------------footer-----------------------*/
+footer ul li img {
+	width: 30px;	
+}
+footer ul li {
+	list-style: none;
+	display: inline-block;
+	
+}
+footer ul {
+	text-align: center;
+}
+/*---------------------nav---------------------*/
+nav {
+	top: 25vh;
+	height: 50vh;
+	position: fixed;
+	background-color: white;
+	z-index: 3;
+}
+
+nav > ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+
+	padding: 0;
+	margin: 0;
+}
+
+nav > ul > li > a {
+	display: block;
+	height: 10vh;
+	cursor: pointer;
+}
+
+nav > ul > li > a > img {
+	box-sizing: border-box;
+	display: block;
+	height: 100%;
+	padding: .5rem;
+}
