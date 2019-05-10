@@ -106,6 +106,7 @@ footer ul li {
 	list-style: none;
 	display: inline-block;
 	
+	
 }
 footer ul {
 	text-align: center;
@@ -118,7 +119,7 @@ footer p {
 /*---------------------nav---------------------*/
 nav {
 	top: 25vh;
-	height: 50vh;
+	height: 60vh;
 	position: fixed;
 	background-color: white;
 	z-index: 3;
