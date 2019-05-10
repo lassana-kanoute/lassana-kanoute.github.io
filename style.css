@@ -2,7 +2,12 @@
 body{
     margin: 0;
 	padding: 0;
-	line-height: 1.7em;
+	
+}
+hr {
+    border: 0;
+    height: 1px; /* détermine la taille du hr */
+    background-color: lightgray; /* détermine la couleur du hr */
 }
 
 video {
@@ -16,7 +21,6 @@ video {
 header.jumbotron {
 	position: relative;
 	overflow: hidden;
-
 	height: 100vh;
 	width: 100%;
 	color: #fff;
@@ -27,9 +31,16 @@ header.jumbotron {
 	line-height: 1em;
 }
 
-h1,h2{
-    font-family: 'Righteous', cursive;
+header.jumbotron h1,h2{
+	font-family: 'Anton', sans-serif;
+	line-height: 30px
 	
+}
+a{
+	text-decoration: none;
+}
+
+h1,h2{
 	
 }
 
@@ -41,12 +52,56 @@ div.container {
 
 /*--------------------- main-----------------------*/
 
+#qui_je_suis{
+	text-align: center;
+	
+}
+section{
+	margin: 2%;
+	padding: 7%;
+}
+.année{
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid black;
+	width: 20%;
+}
+.contenu_par_ligne{
+	display: flex;
+	flex-direction: row;
+	padding: 2%
+	
+	
+}
 
+.informations{
+	width: 79%;
+	padding: 0% 2%;
+}
+p{
+	margin: 2px;
+}
+
+.competences{
+	display: flex;
+	flex-direction: row;
+	
+	
+}
+.competences>ul{
+	background-color: lightgray;
+	list-style: square;
+	width: 21%;
+	margin: 7% auto;
+	padding: 5%;
+
+}
 
 /*----------------------------footer-----------------------*/
 footer ul li img {
 	width: 30px;	
 }
+
 footer ul li {
 	list-style: none;
 	display: inline-block;
@@ -54,7 +109,12 @@ footer ul li {
 }
 footer ul {
 	text-align: center;
+	
 }
+footer p {
+	font-size: 1.1em
+}
+
 /*---------------------nav---------------------*/
 nav {
 	top: 25vh;
@@ -68,7 +128,6 @@ nav > ul {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-
 	padding: 0;
 	margin: 0;
 }
